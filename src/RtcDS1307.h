@@ -7,7 +7,10 @@
 #include <RtcDateTime.h>
 #include "RtcUtility.h"
 
-//I2C Slave Address  
+#define max(a,b) ((a) > (b) ? (a) : (b))
+#define min(a,b) ((a) < (b) ? (a) : (b))
+
+//I2C Slave Address
 const uint8_t DS1307_ADDRESS = 0x68;
 
 //DS1307 Register Addresses
